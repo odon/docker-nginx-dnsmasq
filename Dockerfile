@@ -1,4 +1,4 @@
-FROM nginx:1.9
+FROM nginx:1.11
 
 MAINTAINER Bertrand Roussel "bertrand.roussel@cor-net.org"
 
