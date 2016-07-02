@@ -9,4 +9,4 @@ RUN echo "\n\n# Docker extra config \nuser=root\naddn-hosts=/etc/hosts\n" >> /et
 
 EXPOSE 80 443
 
-CMD service dnsmasq restart && nginx -g "daemon off"
+CMD service dnsmasq restart && nginx -g "daemon off";
